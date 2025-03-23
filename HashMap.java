@@ -22,7 +22,7 @@ public class HashMap {
             values[index] = value;
         }
 
-        // Получение значения по ключу
+       
         public int get(String key) {
             int index = getIndex(key);
 
@@ -35,7 +35,7 @@ public class HashMap {
             return -1;
         }
 
-        // Удаление элемента
+       
         public void remove(String key) {
             int index = getIndex(key);
 
@@ -79,7 +79,7 @@ public class HashMap {
             return Math.abs(key.hashCode()) % CAPACITY;
         }
 
-        // Пример использования
+     
         public static void main(String[] args) {
         HashMap map = new HashMap();
             map.put("Apple", 10);
