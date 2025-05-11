@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class HashMap {
-        private static final int CAPACITY = 5; // Фиксированный размер массива
+        private static final int CAPACITY = 4; // Фиксированный размер массива
         private String[] keys = new String[CAPACITY];
         private int[] values = new int[CAPACITY];
         private int size = 0;
